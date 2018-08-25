@@ -10,12 +10,9 @@ public class Numbers{
 		if(num%2==0) {
 			System.out.println("it is even number");
 		}
-		else if(num%2!=0) {
+		else  {
 			System.out.println("it is odd number");
 		}
-    else{
-    System.out.println("invalid");
-	}
 
 }
 }
