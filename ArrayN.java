@@ -10,5 +10,11 @@ public static void main(String args[]){
       a[i]=sc.nextInt();
 }
 System.out.println("the numbers are;" +a[i]);
+    for(i=0;i<n;i++){
+      max=a[0];
+      if(max<a[i]){
+      max=a[i];
+}
+System.out.println(max);
 }
 }
