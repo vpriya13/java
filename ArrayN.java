@@ -9,12 +9,13 @@ public static void main(String args[]){
     for(i=0;i<n;i++){
       a[i]=sc.nextInt();
 }
-System.out.println("the numbers are;" +a[i]);
+      int max=0;
     for(i=0;i<n;i++){
       max=a[0];
       if(max<a[i]){
       max=a[i];
 }
+System.out.println("the maximum element is:);
 System.out.println(max);
 }
 }
