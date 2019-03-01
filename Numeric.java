@@ -11,8 +11,8 @@ public class Numeric {
         numeric = string.matches("-?\\d+(\\.\\d+)?");
 
         if(numeric)
-            System.out.println(string + " is a number");
+            System.out.println("yes ");
         else
-            System.out.println(string + " is not a number");
+            System.out.println("No");
     }
 }
