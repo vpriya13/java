@@ -10,6 +10,8 @@ public class IsInteger {
 		int n=sc.nextInt();
 		if (n >=-2147483648 && n <=2147483647)
 			System.out.println("int");
+		else
+			System.out.println("long");
 
 	}
 
