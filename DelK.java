@@ -6,12 +6,13 @@ public class MyClass {
         int arr[]=new int[n];
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
+        }
+        for(int j=k;j<n;j++){
+            arr[j]=0;
+        }
+        for(int i=0;i<n;i++){
+            System.out.println(arr[i]);
             
-            if(arr[k+1]!=arr[i]){
-                System.out.print(arr[i]+" ");
-            }
-            else
-            break;
         }
         
      
